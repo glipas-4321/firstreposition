@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>product</title>
+
+<script>
+function pro()
+{
+	var n=parseInt(document.getElementById("n").value);
+	for(let i=1;i<=10;i++)
+		{
+		var res=i*n;
+		document.getElementById("demo").innerHTML=res;
+		}
+	
+}
+</script>
+
+</head>
+<body>
+<input type="text" id="n">
+<button type="button" onclick="pro()">click</button>
+<p id="demo"></p>
+</body>
+</html>
